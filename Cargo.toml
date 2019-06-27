@@ -1,0 +1,8 @@
+[package]
+name = "rustigator"
+version = "0.1.0"
+authors = ["adaptiman <sweeney@tamu.edu>"]
+edition = "2018"
+
+[dependencies]
+rss = { version = "1.8.0", features = ["from_url"]}
