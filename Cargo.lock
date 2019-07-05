@@ -983,6 +983,7 @@ name = "rustigator"
 version = "0.1.0"
 dependencies = [
  "rss 1.8.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "url 1.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

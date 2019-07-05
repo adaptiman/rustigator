@@ -1,6 +1,9 @@
 extern crate rss;
 use rss::{Channel, Item};
 
+mod article;
+
+
 fn search_terms() -> Vec<&'static str> {
     let search_terms: Vec<&str> = vec![
         "TRUMP",
